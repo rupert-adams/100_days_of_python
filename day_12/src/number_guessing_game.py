@@ -3,6 +3,7 @@
 # Must guess a number between 1 and 100 and the computer will tell you if it is higher or lower
 
 import random
+from art import logo
 
 def difficulty_select():
     DIFFICULTY_TURNS = {
@@ -36,6 +37,7 @@ def guess(turns, comp_num):
 
 def guessing_game():
     comp_num = random.randint(1,100)
+    print(logo)
     print("Welcome to the number guessing game!")
     try:
         turns = difficulty_select()
