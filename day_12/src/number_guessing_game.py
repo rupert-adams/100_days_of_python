@@ -20,7 +20,7 @@ def guess(turns, comp_num):
     print("Guess the number between 1 and 100")
     guess = int(input("Please guess the number:"))
     while turns > 0:
-        if (guess > 100 or guess < 0):
+        if (guess > 100 or guess < 1):
             print(f'---\nIt was a simple task, choose a number between 1 and 100.\nThe game is over')
             break
         if guess > comp_num:
