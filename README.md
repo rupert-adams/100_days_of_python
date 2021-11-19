@@ -9,4 +9,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
 
  Day 12 - Number Guessing Game: ✅ 
  
- Day 13 - Debugging: How to find and fix errors: :hourglass:
+ Day 13 - Debugging: How to find and fix errors: ✅
+ 
+ Day 14 - Debugging: Higher, Lower Game: :hourglass:
