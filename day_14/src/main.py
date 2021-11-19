@@ -14,6 +14,10 @@ def get_two_data_blocks(data: list = d1):
     return item_1, item_2
 
 def compare(item_1: dict, item_2: dict):
+    '''
+    Given two correctly formatted dicts,
+    the follower count will be compared and the name of the highest number will be returned.
+    '''
     if item_1["follower_count"] > item_2["follower_count"]:
         return item_1["name"]
     elif item_2["follower_count"] > item_1["follower_count"]:
@@ -22,6 +26,10 @@ def compare(item_1: dict, item_2: dict):
 
 
 def game(data: list):
+    '''
+    game() runs compare() between two items chosen by get_two_data_blocks(),
+    returns True if answer is correct, otherwise False
+    '''
     item_1, item_2 = get_two_data_blocks(data)
     print(item_1["name"])
     print(vs)
@@ -38,6 +46,11 @@ def game(data: list):
         return False
 
 def main():
+    '''
+    While game_live is True, game() is run.
+    If the answer is incorrect the game_live variable turns False, 
+    displaying the score and ending the game.
+    '''
     print(logo)
     print("----------------------------\n\n")
     print("Welcome to the Higher/Lower game!\n\nRules are simple: guess which of the two has a higher follower count,")
@@ -53,9 +66,8 @@ def main():
             if score == 1:
                 print(f"You scored {score} point!\n")
                 break
-            else:
-                print(f"You scored {score} point!\n")
-                break
+            print(f"You scored {score} points!\n")
+            break
 
 if __name__ == "__main__":
     main()
