@@ -18,11 +18,8 @@ EXPECTED_TWO_DATA_BLOCKS = [
 ]
 
 def test_get_two_data_blocks(data_block):
-    print("GET OUT FAUEHRUA")
     f = itemgetter("name")
     result = sorted(list(get_two_data_blocks(data_block)),key=f)
-    print(result)
     comparison = sorted(list(EXPECTED_TWO_DATA_BLOCKS), key=f)
-    print(comparison)
     assert result == comparison
 
