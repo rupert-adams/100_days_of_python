@@ -15,6 +15,8 @@ test_data = [
     }
 ]
 
+num_1, num_2 = 1,2
+
 @pytest.fixture
 def data_block():
     return test_data

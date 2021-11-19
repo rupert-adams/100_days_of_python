@@ -1,4 +1,4 @@
-from src.main import get_two_data_blocks
+from src.main import get_two_data_blocks, compare
 from operator import itemgetter
 
 
@@ -17,9 +17,17 @@ EXPECTED_TWO_DATA_BLOCKS = [
     }
 ]
 
+EXPECTED_COMPARISON = 'Website A'
+
 def test_get_two_data_blocks(data_block):
     f = itemgetter("name")
-    result = sorted(list(get_two_data_blocks(data_block)),key=f)
+    item_1, item_2 = get_two_data_blocks(data_block)
+    result = sorted([item_1, item_2], key=f)
     comparison = sorted(list(EXPECTED_TWO_DATA_BLOCKS), key=f)
     assert result == comparison
 
+def test_compare(data_block):
+    block_1, block_2 = get_two_data_blocks(data_block)
+    comparison = EXPECTED_COMPARISON
+    result = compare(block_1, block_2)
+    assert result == comparison 
