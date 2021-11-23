@@ -17,6 +17,25 @@ test_machine_data = {
     ]
   }
 
+test_coffee_data = {
+  "cheap_test_coffee": {
+    "water": 25,
+    "coffee": 2,
+    "milk": 10,
+    "price": 1
+  },
+  "extreme_test_coffee": {
+    "water": 2500,
+    "coffee": 240,
+    "milk": 1000,
+    "price": 30
+  }
+}
+
 @pytest.fixture
 def machine_data_block():
     return test_machine_data
+
+@pytest.fixture
+def coffee_data_block():
+    return test_coffee_data
