@@ -1,8 +1,9 @@
-from src.main import report, check_levels, coin_process
+from src.main import report, check_levels, coin_process, make_coffee
 
 EXPECTED_REPORT = "Report:\nwater: 300ml\nmilk: 200ml\ncoffee: 100mg"
 EXPECTED_FAILURE = False
 EXPECTED_SUCCESS = True
+EXPECTED_RESOURCES = {'water': 275, 'milk': 190, 'coffee': 98}
 
 def test_report(machine_data_block):
     result = report(machine_data_block["machine"])
@@ -32,3 +33,7 @@ def test_coin_process_just_right(coffee_data_block, machine_data_block):
     test_coin_list = [0.50, 0.50]
     result = coin_process(test_coin_list, coffee_data_block["cheap_test_coffee"]["price"], machine_data_block["accepted coins"])
     assert result == EXPECTED_SUCCESS
+
+def test_make_coffee(coffee_data_block, machine_data_block):
+    result = make_coffee("cheap_test_coffee", machine_data_block["machine"], coffee_data_block)
+    assert result == EXPECTED_RESOURCES

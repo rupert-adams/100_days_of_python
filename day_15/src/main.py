@@ -1,5 +1,5 @@
 # Coffee Machine Project, build software for a coffee machine.
-# Coffee data provided although I chose to use json for file. everything else is the challenge.
+# Coffee data provided although I chose to use json for files. everything else is the challenge.
 
 import json
 
@@ -46,9 +46,17 @@ def coin_process(coin_list: list, coffee_price: int, coins_accepted: list = mach
 
 
 # 4. make coffee
+def make_coffee(choice: str, machine_data: dict = machine_data["machine"], coffee_data: dict = coffee_data):
+    print(f"Making {choice.capitalize()}...")
+    for item in ["water", "milk", "coffee"]:
+        machine_data[item] = machine_data[item] - coffee_data[choice][item]
+    return machine_data
+
+
 
 # if check_levels("espresso"):
 #     print("Hurray!")
-coin_process([1,2,1], 3)
+# coin_process([1,2,1], 3)
+make_coffee("espresso")
 machine_f.close()
 coffee_f.close()
