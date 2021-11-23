@@ -13,4 +13,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 14 - Higher, Lower Game: ✅
  
- Day 15 - LDE Set-up and the coffee machine: :hourglass:
+ Day 15 - Coffee Machine: ✅
+ 
+ Day 16 - OOP: :hourglass:
