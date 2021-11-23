@@ -2,7 +2,6 @@
 # Coffee data provided although I chose to use json for file. everything else is the challenge.
 
 import json
-from decimal import *
 
 machine_f, coffee_f =  open('src/data/machine.json'), open('src/data/coffee.json')
 machine_data, coffee_data = json.load(machine_f), json.load(coffee_f)
@@ -46,10 +45,7 @@ def coin_process(coin_list: list, coffee_price: int, coins_accepted: list = mach
         return False
 
 
-
-# 4. give refund if not enough or too much
-
-# 5. make coffee
+# 4. make coffee
 
 # if check_levels("espresso"):
 #     print("Hurray!")
