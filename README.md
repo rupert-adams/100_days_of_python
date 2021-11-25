@@ -15,4 +15,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 15 - Coffee Machine: ✅
  
- Day 16 - OOP: :hourglass:
+ Day 16 - OOP: ✅
+ 
+ Day 17 - Quiz Project: :hourglass:
