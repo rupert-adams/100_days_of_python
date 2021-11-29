@@ -17,4 +17,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 16 - OOP: ✅
  
- Day 17 - Quiz Project: :hourglass:
+ Day 17 - Quiz Project: ✅
+ 
+ Day 18 - Turtle & GUI :hourglass:
