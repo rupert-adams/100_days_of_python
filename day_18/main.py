@@ -18,7 +18,7 @@ for colour in colours:
 
 '''
  Torniquentus, fourteenth of his name, 
- Artist/plageror of the turtle guild of stealing ideas
+ Artist/plagiaror of the turtle guild of stealing ideas
  from contemporary artist Damien Hirst and just putting them 
  in a different, random order then claiming them as 
  their own work, will create his own original painting: 'Dots'.
