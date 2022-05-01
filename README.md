@@ -21,4 +21,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 18 - Turtle & GUI ✅
  
- Day 19 - Instances, State and Higher Order Functions :hourglass:
+ Day 19 - Instances, State and Higher Order Functions ✅ 
+ 
+ Day 20 - Snake Game, Part 1: Animation and Coordinates :hourglass:
