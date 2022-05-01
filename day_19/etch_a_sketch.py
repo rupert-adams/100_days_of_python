@@ -16,8 +16,8 @@ def turn_counterclockwise():
     curser.left(10)
 
 def reset():
-    curser.clear()
     curser.home()
+    curser.clear()
 
 INPUT_CONSTRAINT= {
     "w": move_forward,
