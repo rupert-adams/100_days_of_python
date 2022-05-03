@@ -7,17 +7,17 @@ I aim to use this challenge to keep practicing my python skills and learn how to
 
 ## Days Completed
 
- Day 12 - Number Guessing Game: ✅ 
+ Day 12 - Number Guessing Game ✅ 
  
- Day 13 - Debugging: How to find and fix errors: ✅
+ Day 13 - Debugging: How to find and fix errors ✅
  
- Day 14 - Higher, Lower Game: ✅
+ Day 14 - Higher, Lower Game ✅
  
- Day 15 - Coffee Machine: ✅
+ Day 15 - Coffee Machine ✅
  
- Day 16 - OOP: ✅
+ Day 16 - OOP ✅
  
- Day 17 - Quiz Project: ✅
+ Day 17 - Quiz Project ✅
  
  Day 18 - Turtle & GUI ✅
  
