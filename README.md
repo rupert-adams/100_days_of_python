@@ -23,4 +23,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 19 - Instances, State and Higher Order Functions ✅ 
  
- Day 20 - Snake Game, Part 1: Animation and Coordinates :hourglass:
+ Day 20 - Snake Game, Part 1: Animation and Coordinates ✅ 
+ 
+ Day 21 - Snake Game, Part 2: Inheritance and List Slicing :hourglass:
