@@ -7,20 +7,22 @@ I aim to use this challenge to keep practicing my python skills and learn how to
 
 ## Days Completed
 
- Day 12 - Number Guessing Game: ✅ 
+ Day 12 - Number Guessing Game ✅ 
  
- Day 13 - Debugging: How to find and fix errors: ✅
+ Day 13 - Debugging: How to find and fix errors ✅
  
- Day 14 - Higher, Lower Game: ✅
+ Day 14 - Higher, Lower Game ✅
  
- Day 15 - Coffee Machine: ✅
+ Day 15 - Coffee Machine ✅
  
- Day 16 - OOP: ✅
+ Day 16 - OOP ✅
  
- Day 17 - Quiz Project: ✅
+ Day 17 - Quiz Project ✅
  
  Day 18 - Turtle & GUI ✅
  
  Day 19 - Instances, State and Higher Order Functions ✅ 
  
- Day 20 - Snake Game, Part 1: Animation and Coordinates :hourglass:
+ Day 20 - Snake Game, Part 1: Animation and Coordinates ✅ 
+ 
+ Day 21 - Snake Game, Part 2: Inheritance and List Slicing :hourglass:
