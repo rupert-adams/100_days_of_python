@@ -27,4 +27,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 21 - Snake Game, Part 2: Inheritance and List Slicing ✅ 
  
- Day 22 - Pong Game :hourglass:
+ Day 22 - Pong Game ✅ 
+ 
+ Day 23 - Turtle Crossing Challenge :hourglass:
