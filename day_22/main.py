@@ -12,17 +12,22 @@ screen.tracer(0)
 
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
+
+KEY_CONSTRAINTS = {
+    r_paddle.go_up: "Up",
+    r_paddle.go_down: "Down",
+    l_paddle.go_up: "w",
+    l_paddle.go_down: "s",
+}
+
 ball = Ball()
 scoreboard = Scoreboard()
 
 screen.listen()
-# Create a constraint and for loop
-screen.onkey(r_paddle.go_up,"Up")
-screen.onkey(r_paddle.go_down,"Down")
-screen.onkey(l_paddle.go_up,"w")
-screen.onkey(l_paddle.go_down,"s")
 
-
+# Key binding
+for direction in KEY_CONSTRAINTS:
+    screen.onkey(direction, KEY_CONSTRAINTS[direction])
 
 game_on = True
 
