@@ -33,4 +33,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 24 - Files, Directories and Paths ✅ 
  
- Day 25 - Working with CSV data and the Pandas Library :hourglass:
+ Day 25 - Working with CSV data and the Pandas Library ✅
+ 
+ Dat 26 - List Comprehension and the NATO alphabet :hourglass:
