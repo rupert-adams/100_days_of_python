@@ -29,4 +29,8 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 22 - Pong Game ✅ 
  
- Day 23 - Turtle Crossing Challenge :hourglass:
+ Day 23 - Turtle Crossing Challenge ✅ 
+ 
+ Day 24 - Files, Directories and Paths ✅ 
+ 
+ Day 25 - Working with CSV data and the Pandas Library :hourglass:
