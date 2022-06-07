@@ -35,4 +35,6 @@ I aim to use this challenge to keep practicing my python skills and learn how to
  
  Day 25 - Working with CSV data and the Pandas Library ✅
  
- Dat 26 - List Comprehension and the NATO alphabet :hourglass:
+ Day 26 - List Comprehension and the NATO alphabet ✅
+ 
+ Day 27 - Tkinter, *arg, *\*kwargs :hourglass:
